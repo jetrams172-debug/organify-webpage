@@ -1,0 +1,610 @@
+*
+{
+    margin: o;
+    padding: 0;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    height: 6500px;
+    width: 1400px;
+}
+
+.navbar{
+    background-color: rgb(147, 115, 115);
+    height: 150px;
+    width: 1400px;
+    width: px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around;
+    margin: o;
+    padding: 0;
+    margin-left: 20px;
+    gap: 50px;
+
+}
+.navbar-logo{
+       
+       width: 10px;
+       height: 10px;
+       padding: 5px;
+       position: absolute;
+       top: 95px;
+       display: flex;
+       justify-content: space-around;
+
+}
+.fa-bars{
+    background-color: aliceblue;
+    color: white;
+    font-size: 30px; 
+
+}
+.page{
+    position: fixed;
+    bottom: 2px;
+    top: 10px;
+
+
+}
+.banner{
+    height: 650px;
+    background-image: url();
+    background-color: #c7e1c8;
+    
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+.left{
+    margin: 50px;
+    width: 500px;
+    text-align: left;
+    
+    
+   
+
+}
+.small-png {
+    
+    width:0px; 
+    height: auto; 
+
+    /* 2. Place on Left */
+    float: left; /* Floats the image to the left, allowing text/content to wrap around it */
+    
+    /* Optional: Add some space between the image and the text */
+    margin-right: 20px; 
+    margin-bottom: 10px;
+}
+
+
+p {
+    
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+
+
+.para{
+    background-color: rgb(244, 203, 20);
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    color: black;
+    align-items: right;
+    margin: 20px;
+    padding: 5px;
+
+
+}
+.head{
+    color: rgb(7, 138, 7);
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button{
+    background-color: rgb(235, 80, 80);
+    color: white;
+    height: 50px;
+    width: 150px;border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+
+
+
+} 
+.right{
+    
+    width: 550px;
+    margin: 50px;
+    display: flex;
+    flex: row;
+    justify-content: end;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(veg.png);
+
+
+
+}
+.head2{
+    color: rgb(167, 13, 13);
+    font-size: 40px;
+    margin: 30px 5px;
+
+}
+.baner{
+    
+    width: 400px;
+    height: 250px;
+    border-top-left-radius:15px ;
+    border-top-right-radius: 15px;
+    background-color: aliceblue;
+   display: flex;
+   justify-content: space-around;
+
+
+}
+.p2{
+    color: rgb(28, 194, 28);
+    font-size: 25px;
+    position: relative;
+    margin: 20px;
+    top: -20px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.p3{
+    
+    font-size: 20px;
+    position: relative;
+    width: 50px;
+    top: -10px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.mid-h1{
+    margin: 50px 250px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: 800px;
+    color: rgb(6, 6, 6);
+    
+
+
+}
+.color{
+    color: aquamarine;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(212, 232, 212);
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px;
+}
+
+.box2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(232, 195, 178);
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px;
+    
+}
+.box3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(248, 215, 229);
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px;
+
+}
+.box4{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(196, 227, 238);
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px;
+}
+
+.bi-truck{
+    height: 100px;
+    width: 200px;
+
+
+}
+.box-p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    padding: 18px 0;
+
+
+
+}
+.animated-heading {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: colorChange 10s infinite alternate; /* Apply the animation */
+    margin: 25px 30px;
+
+}
+
+@keyframes colorChange {
+    0% {
+        color: #ff0000; /* Red at the start */
+    }
+    25% {
+        color: #00ff00; /* Green */
+    }
+    50% {
+        color: #0000ff; /* Blue */
+    }
+    75% {
+        color: #040404; /* Yellow */
+    }
+    100% {
+        color: #ff00ff; /* Magenta at the end */
+    }
+}
+
+
+
+.c1{
+    height: 500px;
+    width: 400px;
+    background-color: #0000ff;
+    text-align: center;
+    border-radius: 10px;
+
+    
+}
+.image-container {
+  width: 400px;
+  height: 500px;
+   /* Adjust as needed */
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease; /* Smooth transition for 0.5 seconds */
+}
+
+.image-container:hover img {
+  transform: scale(1.1); /* Zooms in to 110% of its size */
+}
+
+
+/* Container holds the image and the overlay content */
+.image-container {
+  position: relative; /* All absolutely positioned children will be relative to this container */
+  width: 100%; /* Or set a specific width */
+  max-width: 600px; /* Example: Control the maximum size */
+  margin: 0 auto; /* Center the container on the page */
+}
+
+/* Make the image responsive and fill its container */
+.background-image {
+  width: 100%;
+  height: auto;
+  display: block; /* Removes extra space below the image */
+}
+.cp{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ac0bd8;
+
+}
+
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* ----------------
+   2. Styling and Application
+   ---------------- */
+
+.fade-in-heading {
+
+
+
+    margin: 50px;
+
+    
+    opacity: 0; 
+    
+    
+    animation-name: fadeIn;       /* Use the keyframe set defined above */
+    animation-duration: 3s;       /* How long the animation takes (e.g., 3 seconds) */
+    animation-timing-function: ease-in; /* Controls the speed curve */
+    animation-fill-mode: forwards;/* Crucial: Keeps the element visible after the animation ends */
+    
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    color: #333;
+}
+.section2{
+    padding: 20px;
+    margin: 100px;
+    text-align: center;
+
+}
+.all-buttons{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 10px;
+
+
+
+    /*  generated     */
+}
+.stylish-button {
+    /* Default State (Before Hover) */
+    background-color: lightcoral; /* Light red background */
+    color: white;                /* White text */
+    
+    /* General Button Styling */
+    padding: 10px 25px;
+    border: 2px solid lightcoral; /* Border matches background for a clean look */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+    /* Transition for Smoothness (Crucial!) */
+    /* Apply transition to both color and background-color over 0.3 seconds */
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.stylish-button:hover {
+    /* Hover State */
+    background-color: white;   /* Background turns white */
+    color: lightcoral;         /* Text turns red */
+    
+    /* You may want to change the border color on hover too, 
+       to maintain the overall red theme */
+    border-color: lightcoral; 
+}
+
+
+
+
+
+
+
+.product-container {
+    display: flex;
+    justify-content: center; /* Center items if they don't fill max-width */
+    flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
+    gap: 20px; /* Space between product cards */
+    max-width: 1350px;
+    height: 500px; /* Increased max-width to accommodate 4 cards */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Image Styling */
+.product-image {
+    width: 100%; /* Make image fill the width of the card */
+    max-height: 400px; /* Limit image height */
+    object-fit: contain; /* Ensures the image fits without cropping */
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+    border-radius: 5px; /* Slightly rounded corners for the image */
+}
+
+/* Inner Div (Product Card) Styles */
+.product-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    height: 400px; /* Adjusted width for 4 cards in a row */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+    /* Hover preparation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; 
+    border: 1px solid transparent; /* Transparent border for smooth hover */
+}
+
+/* Text Styling within Cards */
+.product-card h3 {
+    margin-top: 30px;
+    margin-bottom: 2px;
+    color: #333;
+}
+
+.product-card p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.product-card strong {
+    color: #222;
+}
+
+/* Discount Text Style */
+.product-card .discount {
+    color: #e74c3c; /* Red color for discount text */
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* The Hover Effect */
+.product-card:hover {
+    transform: translateY(-8px) scale(1.03); /* Lifts and slightly enlarges */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+    cursor: pointer;
+    border-color: #3498db; /* Blue border on hover */
+}
+
+
+
+
+
+
+
+.main-footer {
+    background-color: #1a1a1a; /* Very Dark Gray/Black */
+    color: #cccccc;
+    padding: 40px 40px 10px;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(171, 45, 45, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 30px; /* Space between columns */
+}
+
+.main-footer h3, .main-footer h4 {
+    color: #a5d6a7; /* Light Green for headings */
+    margin-top: 0;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+
+.footer-section {
+    flex-basis: 22%; /* Each section takes up approx 1/4 of the width */
+    min-width: 200px; /* Ensures sections don't get too narrow on smaller screens */
+}
+
+/* Subscription Form Styling */
+.subscription input[type="email"] {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    width: 60%;
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.subscription button {
+    padding: 10px 15px;
+    background-color: #4caf50; /* Green Button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscription button:hover {
+    background-color: #388e3c;
+}
+
+
+.main-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-footer a {
+    color: #cccccc;
+    text-decoration: none;
+    line-height: 1.6;
+    border-radius: 15px;
+    display: block; 
+}
+
+.main-footer a:hover {
+    color: #a5d6a7;
+    text-decoration: underline;
+}
+
+
+.social-links a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #4caf50;
+}
+
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+
+@media (max-width: 768px) {
+    .main-footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-section {
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
